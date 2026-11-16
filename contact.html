@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Institut Maranatha Goma</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="container">
+      <span>📍 Mabanga, Karisimbi Commune, Goma, North Kivu, DRC</span>
+      <span>📞 +243 990 000 000 | ✉️ info@institutmaranatha-goma.cd</span>
+    </div>
+  </div>
+
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="logo">
+        <div class="logo-badge">IM</div>
+        <div class="logo-text">
+          <h1>Institut Maranatha</h1>
+          <span>Adventist School • Goma</span>
+        </div>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">☰</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="academics.html">Academics</a>
+        <a href="student-life.html">Student Life</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="admissions.html" class="nav-cta">Apply Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>We welcome parents, students, and partners to visit our campus in Goma.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid-2" style="align-items: start;">
+      <!-- Campus Details & Map Photo -->
+      <div>
+        <div class="card" style="margin-bottom: 24px;">
+          <h3>Campus Address & Hours</h3>
+          <p style="margin: 12px 0;"><strong>📍 Location:</strong> Quartier Mabanga, Commune de Karisimbi, City of Goma, North Kivu, Democratic Republic of the Congo.</p>
+          <p style="margin-bottom: 12px;"><strong>📞 Phone:</strong> +243 990 000 000 / +243 810 000 000</p>
+          <p style="margin-bottom: 12px;"><strong>✉️ Email:</strong> info@institutmaranatha-goma.cd</p>
+          <p><strong>🕒 Office Hours:</strong><br>
+            Monday – Thursday: 7:30 AM – 4:00 PM<br>
+            Friday: 7:30 AM – 1:00 PM<br>
+            Saturday (Sabbath): Closed for Worship
+          </p>
+        </div>
+
+        <!-- PHOTO INSERTION FRAME 9 -->
+        <div class="photo-frame" style="min-height: 220px;">
+          <span class="cam-icon">🗺️</span>
+          <strong>[Insert Campus Gate or Goma Map Photo]</strong>
+          <p>Description: Photo of the main entrance gate of Institut Maranatha showing the school signboard in Mabanga, Goma.</p>
+        </div>
+      </div>
+
+      <!-- Inquiry Form -->
+      <div class="card">
+        <h3>Send Us a Message</h3>
+        <p style="color: var(--text-muted); margin-bottom: 20px;">
+          Have a question about tuition fees, transfers, or academic schedules? Write to us below.
+        </p>
+
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="senderName">Your Full Name *</label>
+            <input type="text" id="senderName" placeholder="Enter your name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="senderEmail">Email Address *</label>
+            <input type="email" id="senderEmail" placeholder="you@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="e.g., Tuition Fees Inquiry">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" rows="5" placeholder="Write your message here..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-navy" style="width: 100%;">Send Message</button>
+          <div id="contactFeedback" class="alert-box"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <h4>Institut Maranatha Goma</h4>
+        <p>A Seventh-day Adventist educational institution committed to raising principled leaders and lifelong learners in North Kivu, DRC.</p>
+      </div>
+      <div>
+        <h4>Quick Navigation</h4>
+        <ul>
+          <li><a href="about.html">About Our School</a></li>
+          <li><a href="academics.html">Academic Options</a></li>
+          <li><a href="student-life.html">Clubs & Student Life</a></li>
+          <li><a href="admissions.html">Admissions & Fees</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Campus Office</h4>
+        <ul>
+          <li>Mabanga, Commune de Karisimbi, Goma</li>
+          <li>Mon – Thu: 7:30 AM – 4:00 PM</li>
+          <li>Friday: 7:30 AM – 1:00 PM</li>
+          <li>Saturday (Sabbath): Closed</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Institut Maranatha — Seventh-day Adventist School, Goma. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
