@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academics & Programs | Institut Maranatha Goma</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="container">
+      <span>📍 Mabanga, Karisimbi Commune, Goma, North Kivu, DRC</span>
+      <span>📞 +243 990 000 000 | ✉️ info@institutmaranatha-goma.cd</span>
+    </div>
+  </div>
+
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="logo">
+        <div class="logo-badge">IM</div>
+        <div class="logo-text">
+          <h1>Institut Maranatha</h1>
+          <span>Adventist School • Goma</span>
+        </div>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">☰</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="academics.html" class="active">Academics</a>
+        <a href="student-life.html">Student Life</a>
+        <a href="contact.html">Contact</a>
+        <a href="admissions.html" class="nav-cta">Apply Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>Academic Programs</h1>
+      <p>Accredited DRC national curriculum pathways from Primary School through Senior Humanities.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <!-- Interactive Filter Buttons -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All Levels</button>
+        <button class="filter-btn" data-filter="primary">Primary School</button>
+        <button class="filter-btn" data-filter="eb">Éducation de Base (7th–8th)</button>
+        <button class="filter-btn" data-filter="humanities">Senior Humanities</button>
+      </div>
+
+      <div class="grid-3">
+        <!-- Primary -->
+        <div class="card program-card" data-category="primary">
+          <img src="primary pupils.jpg" alt="Institut Maranatha Campus in Goma" style="width: 100%; height: 280px; object-fit: cover; border-radius: 12px;">
+          <span class="tag">Grades 1 – 6</span>
+          <h3>Primary Education</h3>
+          <p style="margin-bottom: 15px;">Strong foundations in French, English, Mathematics, Science, and Bible stories in a nurturing environment.</p>
+          <a href="admissions.html" class="btn btn-navy">Enroll in Primary</a>
+        </div>
+
+        <!-- Éducation de Base -->
+        <div class="card program-card" data-category="eb">
+          <img src="education de base.jpg" alt="Institut Maranatha Campus in Goma" style="width: 100%; height: 280px; object-fit: cover; border-radius: 12px;">
+          <span class="tag">7th & 8th Grade (CTEB)</span>
+          <h3>Éducation de Base</h3>
+          <p style="margin-bottom: 15px;">Prepares students for the TENASOSP national assessment while introducing ICT, algebra, and natural sciences.</p>
+          <a href="admissions.html" class="btn btn-navy">Enroll in 7th/8th</a>
+        </div>
+
+        <!-- Scientific Option -->
+        <div class="card program-card" data-category="humanities">
+          <img src="scientific.jpg" alt="Institut Maranatha Campus in Goma" style="width: 100%; height: 280px; object-fit: cover; border-radius: 12px;">
+          <span class="tag">Senior Humanities</span>
+          <h3>Scientific Option</h3>
+          <p style="margin-bottom: 15px;">Advanced Mathematics, Physics, Chemistry, and Biology for future doctors, engineers, and IT specialists.</p>
+          <a href="admissions.html" class="btn btn-navy">Apply for Sciences</a>
+        </div>
+
+        <!-- General Pedagogy -->
+        <div class="card program-card" data-category="humanities">
+          <img src="pedagogy.jpg" alt="Institut Maranatha Campus in Goma" style="width: 100%; height: 280px; object-fit: cover; border-radius: 12px;">
+          <span class="tag">Senior Humanities</span>
+          <h3>General Pedagogy</h3>
+          <p style="margin-bottom: 15px;">Training compassionate, skilled educators through psychology, didactics, and supervised teaching internships.</p>
+          <a href="admissions.html" class="btn btn-navy">Apply for Pedagogy</a>
+        </div>
+
+        <!-- Commercial & Management -->
+        <div class="card program-card" data-category="humanities">
+          <img src="commercial students.jpg" alt="Institut Maranatha Campus in Goma" style="width: 100%; height: 280px; object-fit: cover; border-radius: 12px;">
+          <span class="tag">Senior Humanities</span>
+          <h3>Commercial & Management</h3>
+          <p style="margin-bottom: 15px;">Accounting, Economics, Entrepreneurship, and Business Computer Applications for tomorrow's business leaders.</p>
+          <a href="admissions.html" class="btn btn-navy">Apply for Commercial</a>
+        </div>
+
+        <!-- Literary / Social -->
+        <div class="card program-card" data-category="humanities">
+          <img src="reading.jpg" alt="Institut Maranatha Campus in Goma" style="width: 100%; height: 280px; object-fit: cover; border-radius: 12px;">
+          <span class="tag">Senior Humanities</span>
+          <h3>Literary & Languages</h3>
+          <p style="margin-bottom: 15px;">In-depth study of French, English, Philosophy, and History for careers in law, journalism, and diplomacy.</p>
+          <a href="admissions.html" class="btn btn-navy">Apply for Literary</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <h4>Institut Maranatha Goma</h4>
+        <p>A Seventh-day Adventist educational institution committed to raising principled leaders and lifelong learners in North Kivu, DRC.</p>
+      </div>
+      <div>
+        <h4>Quick Navigation</h4>
+        <ul>
+          <li><a href="about.html">About Our School</a></li>
+          <li><a href="academics.html">Academic Options</a></li>
+          <li><a href="student-life.html">Clubs & Student Life</a></li>
+          <li><a href="admissions.html">Admissions & Fees</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Campus Office</h4>
+        <ul>
+          <li>Mabanga, Commune de Karisimbi, Goma</li>
+          <li>Mon – Thu: 7:30 AM – 4:00 PM</li>
+          <li>Friday: 7:30 AM – 1:00 PM</li>
+          <li>Saturday (Sabbath): Closed</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 Institut Maranatha — Seventh-day Adventist School, Goma. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
