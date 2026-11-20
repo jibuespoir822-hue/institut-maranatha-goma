@@ -24,7 +24,7 @@
 
 body {
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  background-color: var(--bg-light);
+  background-color: rgb(16, 190, 202);
   color: var(--text-dark);
   line-height: 1.6;
 }
